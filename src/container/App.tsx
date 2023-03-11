@@ -1,9 +1,12 @@
-import Header from "./Header/Header"
+import Header from './Header/Header'
 
-export default function App() {
+type Props = {}
+
+const App = (props: Props) => {
     return (
         <div className="flex bg-gray-400 rounded py-5 px-10">
-            <Header/>
+            <Header />
         </div>
     )
 }
+export default App
